@@ -1,0 +1,26 @@
+class: UserInputValidator
+Functionality
+1: Takes a list as input and through the validate_positive_integers method, appends valid integers to an empty list generated in the __init__() statement.
+2: __str__() statement, outputs a message about finishing validation and presents the valid integers.
+
+#1 commit log: either testing code or code is not operational, descriptors might be causing unexpected behaviour
+#1.1 Commit log: Code is functional.
+
+Tester:
+[
+import random as rnd
+# test_list_integer = []
+# test_list_string = []
+# for a in range(200):
+#     x = rnd.randint(-100, 10) * (10 * rnd.random())
+#     x = int(x)
+#     test_list_integer.append(x)
+#     test_list_string.append(str(x))
+# print(test_list_integer)
+# print(test_list_string)
+#
+# test_int = UserInputValidator(test_list_integer)
+# test_int.validate_positive_integers()
+# test_string = UserInputValidator(test_list_string)
+# test_string.validate_positive_integers()
+]
