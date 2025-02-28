@@ -1,4 +1,3 @@
-
 class UserInputValidator:
     """Takes list as input and returns list of positive integers"""
     def __init__(self, validator):
@@ -22,3 +21,4 @@ class UserInputValidator:
             if variable > 0:
                 self._valid.append(variable)
         self._valid.sort()
+        
